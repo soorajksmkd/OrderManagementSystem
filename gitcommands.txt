@@ -1,0 +1,38 @@
+
+//Cloning only needs to be done once
+
+git clone https://github.com/infyproject/fa4.git
+
+cd fa4
+
+//Creating a branch
+
+git checkout -b <branch-name>
+
+//Changing to a branch
+
+git checkout <branch-name>
+
+//Track all files
+
+git add .
+
+//commit files
+
+git commit -m "relavent message"
+
+//push to github
+
+git push -u origin <branch-name>
+
+//pull from github
+
+git pull origin <branch-name>
+
+
+
+//merge the branch to master
+
+git checkout master
+git merge <branch-name>
+
